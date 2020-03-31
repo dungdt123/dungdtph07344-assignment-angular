@@ -1,0 +1,160 @@
+<!-- for bootstrap working -->
+
+<!-- //for bootstrap working -->
+<!-- header modal -->
+<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Don't Wait, Login now!</h4>
+            </div>
+            <div class="modal-body modal-body-sub">
+                <div class="row">
+                    <div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
+                        <div class="sap_tabs">
+                            <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                                <ul>
+                                    <li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
+                                    <li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
+                                </ul>
+                                <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                                    <div class="facts">
+                                        <div class="register">
+                                            <form action="#" method="post">
+                                                <input name="Email" placeholder="Email Address" type="text" required="">
+                                                <input name="Password" placeholder="Password" type="password" required="">
+                                                <div class="sign-up">
+                                                    <input type="submit" value="Sign in" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+                                    <div class="facts">
+                                        <div class="register">
+                                            <form action="#" method="post">
+                                                <input placeholder="Name" name="Name" type="text" required="">
+                                                <input placeholder="Email Address" name="Email" type="email" required="">
+                                                <input placeholder="Password" name="Password" type="password" required="">
+                                                <input placeholder="Confirm Password" name="Password" type="password" required="">
+                                                <div class="sign-up">
+                                                    <input type="submit" value="Create Account" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- header modal -->
+<!-- header -->
+<div class="header" id="home1">
+    <div class="container">
+        <div class="w3l_login">
+            <a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+        </div>
+        <div class="w3l_logo">
+            <h1><a routerLink='/home'>Electronic Store<span>Your stores. Your place.</span></a></h1>
+        </div>
+
+        <div class="cart cart box_1">
+            <form action="#" method="post" class="last">
+                <input type="hidden" name="cmd" value="_cart" />
+                <input type="hidden" name="display" value="1" />
+                <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- //header -->
+<!-- navigation -->
+<div class="navigation">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header nav_2">
+                <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                <ul class="nav navbar-nav">
+                    <li><a routerLink='/home' class="act">Home</a></li>
+                    <!-- Mega Menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-column columns-3">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <ul class="multi-column-dropdown">
+                                        <h6>Mobiles</h6>
+                                        <li><a routerLink='products'>Mobile Phones</a></li>
+                                        <li><a routerLink='products'>Mp3 Players <span>New</span></a></li>
+                                        <li><a routerLink='products'>Popular Models</a></li>
+                                        <li><a routerLink='products'>All Tablets<span>New</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <ul class="multi-column-dropdown">
+                                        <h6>Accessories</h6>
+                                        <li><a routerLink='products1'>Laptop</a></li>
+                                        <li><a routerLink='products1'>Desktop</a></li>
+                                        <li><a routerLink='products1'>Wearables <span>New</span></a></li>
+                                        <li><a routerLink='products1'><i>Summer Store</i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-2">
+                                    <ul class="multi-column-dropdown">
+                                        <h6>Home</h6>
+                                        <li><a routerLink='products2'>Tv</a></li>
+                                        <li><a routerLink='products2'>Camera</a></li>
+                                        <li><a routerLink='products2'>AC</a></li>
+                                        <li><a routerLink='products2'>Grinders</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w3ls_products_pos">
+                                        <h4>30%<i>Off/-</i></h4>
+                                        <img src="../assets/images/1.jpg" alt=" " class="img-responsive" />
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a routerLink='about'>About Us</a></li>
+
+                    <li><a routerLink='mail'>Mail Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- //navigation -->
+<router-outlet></router-outlet>
+<div class="footer-copy">
+    <div class="footer-copy1">
+        <div class="footer-copy-pos">
+            <a href="#home1" class="scroll"><img src="../assets/images/arrow.png" alt=" " class="img-responsive" /></a>
+        </div>
+    </div>
+    <div class="container">
+        <p>&copy; 2017 Electronic Store. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+    </div>
+</div>
